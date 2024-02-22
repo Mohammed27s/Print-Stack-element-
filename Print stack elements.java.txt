@@ -1,0 +1,40 @@
+
+
+//Print Stack elements
+
+import java.util.Stack;
+
+public class Print {
+    public static Stack<String> TRA_IDs = new Stack<>();
+
+    public static void main(String[] args){
+
+
+
+        TRA_IDs.push("TRA123344s");
+        TRA_IDs.push("TRA534534s");
+        TRA_IDs.push("TRA098757s");
+        TRA_IDs.push("TRA3456263s");
+
+       System.out.println("Print Stack elements ...."+"\n");
+        print();
+
+
+
+
+    }
+    public static void print(){
+
+        if(TRA_IDs.size() -1 >= 0){
+
+            System.out.println("The first top element in the stack : "+TRA_IDs.elementAt(3));
+            System.out.println("The second element in the stack : "+TRA_IDs.elementAt(2));
+            System.out.println("The third element in the stack : "+TRA_IDs.elementAt(1));
+            System.out.println("The forth element in the stack : "+TRA_IDs.elementAt(0));
+
+
+        }
+
+
+    }
+}
